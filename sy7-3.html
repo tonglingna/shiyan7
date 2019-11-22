@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>欢迎使用正方教务管理系统！请登录</title>
+<style>
+	body{
+		background:url("images/zcbg.png") no-repeat top center;
+		padding:50px 0 0 860px;
+	}
+	.form{
+		width:280px;
+		height:300px;
+		background-color:#DEDEDE;
+		padding:30px 40px;
+		border:1px solid #DEDEDE;
+	}
+	[type="text"],[type="password"]{
+		width:280px;
+		height:38px;
+		border-top:1px solid #e4e4e4;
+		font-size:16px;
+		text-indent:50px;
+	}
+	[type="text"]{
+		background:url("images/zczh.png") no-repeat 0 -2px;
+	}
+	[type="yanzhengma"]{
+		width:208px;
+		height:38px;
+		border-top:1px solid #e4e4e4;
+		font-size:16px;
+		text-indent:50px;
+	}
+	[type="password"]{
+		background:url("images/zcmm.png") no-repeat 0 -2px;
+	}
+	[type="checkbox"]{
+		display:inline;
+		vertical-align:middle;
+	}
+	[type="yanzhengma"]{
+		background:url("images/zcyz.png") no-repeat 0 -2px;
+	}
+	label{
+		font-size:14px;
+	}
+	#reg{
+		width:280px;
+		height:38px;
+		border:2px solid #e4e4e4;
+		font-size:16px;
+		text-align:center;
+        display:block;
+	}
+	[type="button"]{
+		width:255px;
+		height:44px;
+		margin:25px auto;
+		background-image:url("images/but.jpg");
+		border:none;
+		padding:15px auto;
+	}
+	.red{
+		text-align:right;
+		font-size:12px;
+		margin-top:-18px;
+	}
+	.red a{
+	    color:#999;
+		text-decoration:none;	
+	}
+	.red a:hover{
+		color:#F00;
+		text-decoration:underline;
+	}
+	#div3,#div4,div5{
+		width:280px;
+		height：38px;
+	}
+	.first{
+		font-size:30px;
+		text-align:center;
+		padding:0px;
+		color:aliceblue;
+	}
+	#div6{
+		background-color:aliceblue;
+		width:280px;
+		height:271px;
+		padding:30px 40px;
+		border:1px solid #e4e4e4;
+		border-radius:15px;
+	}
+	#div7{
+		width:300px;
+		height:180px;
+		border-radius:15px;
+	}
+	.second {
+		text-align:left;
+		width:240px;
+		height:30px;
+		font-size:30px;
+		color:aliceblue;
+		display:block;
+	}
+	.float{
+		float:right;
+	}
+	#div8{
+		width:1200px;
+		height:50px;
+	}
+	#div5{
+		white-space:nowrap;
+	}
+</style>
+</head>
+
+<body>
+<div id="div8" class="float">
+<img src="images/logozc.png" width="211" height="42"/>
+<p class="second">教务管理系统</p>
+</div>
+
+<div id="div1">
+	<p class="first">用户登录</p>
+	<div id="div6">
+    <form action="#" method="post" name="form">
+	<div id="div7">
+	<div id="div3">
+	<input type="text" name="user" placeholder="用户名">
+	</div>
+	<div id="div4">
+	<input type="password" name="password" placeholder="密码">
+	</div>
+	<div id="div5">
+	<input type="yanzhengma" name="yanzhengma" placeholder="验证码">
+	<img src="images/3.png"/>	
+	</div>
+	<div id="reg">
+	<input type="checkbox" name="apartment" value="1" id="apartment">
+	<label for="aprtment">部门</label>
+	<input type="checkbox" name="teacher" value="1" id="teacher">
+	<label for="teacher">教师</label>
+	<input type="checkbox" name="student" value="1" id="student">
+	<label for="student">学生</label>
+	<input type="checkbox" name="question" value="1" id="question">
+	<label for="question">访问</label>
+	</div>
+	</div>
+	<div id="div2">
+	<input type="button" name="button">
+	<div class="red">
+		<a href="#">忘记密码</a>
+	</div>
+	</div>
+	</form>
+	</div>
+</div>
+</body>
+</html>
